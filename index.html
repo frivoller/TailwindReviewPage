@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>İnceleme Sayfası</title>
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-gray-800 text-white p-4">
+        <h1 class="text-2xl font-bold">Müşteri İncelemeleri</h1>
+    </header>
+
+    <main class="container mx-auto p-6">
+        <section class="mb-8">
+            <h2 class="text-xl font-semibold mb-4">Müşterilerimiz Ne Diyor?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <p class="text-gray-700">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
+                    <h3 class="font-bold mt-2">Distinctio Animi</h3>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <p class="text-gray-700">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
+                    <h3 class="font-bold mt-2">Distinctio Animi</h3>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <p class="text-gray-700">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
+                    <h3 class="font-bold mt-2">Distinctio Animi</h3>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <p class="text-gray-700">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
+                    <h3 class="font-bold mt-2">Distinctio Animi</h3>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-xl font-semibold mb-4">Bize Ulaşın</h2>
+            <form class="bg-white p-6 rounded-lg shadow">
+                <div class="mb-4">
+                    <label class="block text-gray-700" for="name">İsim</label>
+                    <input class="w-full p-2 border border-gray-300 rounded" type="text" id="name" placeholder="Adınız">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700" for="email">E-posta</label>
+                    <input class="w-full p-2 border border-gray-300 rounded" type="email" id="email" placeholder="E-posta adresiniz">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700" for="message">Mesaj</label>
+                    <textarea class="w-full p-2 border border-gray-300 rounded" id="message" rows="4" placeholder="Mesajınızı yazın..."></textarea>
+                </div>
+                <button class="bg-purple-600 text-white p-2 rounded" type="submit">Gönder</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        <p>&copy; 2023 Şirket Adı. Tüm hakları saklıdır.</p>
+    </footer>
+
+</body>
+</html>
